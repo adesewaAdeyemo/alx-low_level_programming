@@ -8,12 +8,13 @@
 int main(void)
 {
 	int n;
-	scanf("%n",$n)
+
+	scanf("%n", $n)
 	if (n > 0)
 		printf("%n is positive\n", n);
 	else if (n < 0)
 		printf("%n is negative\n", n);
 	else
 		printf("%n is zero\n", n);
-    return (0);
+	return (0);
 }
