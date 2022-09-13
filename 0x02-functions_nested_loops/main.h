@@ -1,4 +1,4 @@
-int _putchar(char)
+void _putchar(char c)
 {
-	return (write(1, $c, 1));
+	putchar(c);
 }
