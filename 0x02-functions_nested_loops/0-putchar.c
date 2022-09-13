@@ -11,7 +11,7 @@ int main(void)
 
 	while (*c)
 	{
-		_putchar(*c);
+		putchar(*c);
 		c++;
 	}
 	putchar('\n');
