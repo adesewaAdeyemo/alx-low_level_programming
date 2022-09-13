@@ -1,4 +1,2 @@
-void _putchar(char c)
-{
-	putchar(c);
-}
+int _putchar(int c)
+	putchar(c)
