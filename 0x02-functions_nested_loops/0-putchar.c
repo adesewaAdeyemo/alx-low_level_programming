@@ -1,9 +1,8 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - check the code
- *
- * Return: Always 0.
+ *To print
+ * Return: Always 0 succes
  */
 int main(void)
 {
@@ -11,9 +10,9 @@ int main(void)
 
 	while (*c)
 	{
-		putchar(*c);
-		c++;
+		_putchar(*c);
+		c++i;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
