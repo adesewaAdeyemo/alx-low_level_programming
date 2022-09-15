@@ -5,7 +5,7 @@
  *
  *@a: first integar
  *@b: second integar
-
+ *
  * Return: c
  */
 int mul(int a, int b)
