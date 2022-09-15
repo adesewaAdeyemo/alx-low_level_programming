@@ -2,8 +2,9 @@
 
 /**
  * mul - Multiplies two numbers
- *
- * Return: 0
+ *@a: first integar
+ *@b: second integar
+ * Return: c
  */
 int mul(int a, int b)
 {
