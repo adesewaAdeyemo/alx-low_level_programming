@@ -1,33 +1,36 @@
 #include "main.h"
+void print_integer(int m);
 
 /**
- * print_triangle - print a triamgle followedbby a new line
- *
- * @size: integer value to be passed
- *
- * Return: void
+ * print_number - a function that prints an integer.
+ * @n: An input integer
+ * Return: Nothing
  */
-
-void print_triangle(int size)
+void print_number(int n)
 {
-	int row, col, sp;
-
-	if (size > 0)
+	if (n == 0)
+		_putchar('0');
+	else if (n < 0)
 	{
-		for (row = 1; row <= size; row++)
-		{
-			for (sp = size - 1; sp >= row; sp--)
-			{
-				_putchar(' ');
-			}
-
-			for (col = 1; col <= row; col++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
+		_putchar('-');
+		print_integer(n * -1);
 	}
 	else
-		_putchar('\n');
+		print_integer(n);
+}
+
+/**
+ * print_integer - A function to priting n
+ * @m: an input unsigned integer
+ * Return: Nothing
+ */
+void print_integer(int m)
+{
+	int i = 1000000000;
+
+	for (; i >= 1; i /= 10)
+		if (m / i != 0)
+		{
+			_putchar((m / i) % 10 + '0');
+		}
 }
