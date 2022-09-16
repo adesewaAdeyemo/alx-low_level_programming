@@ -1,25 +1,33 @@
 #include "main.h"
+
 /**
- * print_number - prints an integer
- * @n: integer to be printed
+ * print_triangle - print a triamgle followedbby a new line
+ *
+ * @size: integer value to be passed
+ *
+ * Return: void
  */
-void print_number(int n)
+
+void print_triangle(int size)
 {
-	unsigned int n1;
+	int row, col, sp;
 
-	if (n < 0)
+	if (size > 0)
 	{
-		n1 = -n;
-		_putchar('-');
-	} else
-	{
-		n1 = n;
+		for (row = 1; row <= size; row++)
+		{
+			for (sp = size - 1; sp >= row; sp--)
+			{
+				_putchar(' ');
+			}
+
+			for (col = 1; col <= row; col++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
 	}
-
-	if (n1 / 10)
-	{
-		print_number(n1 / 10);
-	}
-
-	_putchar((n1 % 10) + '0');
+	else
+		_putchar('\n');
 }
