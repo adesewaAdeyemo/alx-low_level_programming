@@ -3,9 +3,8 @@
 /**
  * reset_to_98 - change the pointer value
  *
- * @a: first value
- * @b: second value
- * Return: void
+ * @n: variable
+ *  Return: void
  */
 void reset_to_98(int *n)
 {
