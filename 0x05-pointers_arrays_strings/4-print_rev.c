@@ -9,9 +9,9 @@
 */
 void print_rev(char *s)
 {
-	int i;
+	int i, j;
 
-	if (s[i] == '/0')
+	if (s[i] == '\0')
 	{
 		for (j = i-1; j >= 0; i--)
 		{
