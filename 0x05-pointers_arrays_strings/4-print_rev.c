@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts - prints a string
+ * print_rev - prints a string
  *
  * @s : string parameter to print
  *
@@ -13,7 +13,7 @@ void print_rev(char *s)
 
 	if (s[i] == '\0')
 	{
-		for (j = i-1; j >= 0; i--)
+		for (j = i - 1; j >= 0; i--)
 		{
 			_putchar(s[j] + 0);
 		}
