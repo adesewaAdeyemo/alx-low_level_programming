@@ -7,6 +7,7 @@
  * @dest: string
  * @src: string
  * @n: integer
+ * Return: returns string
  */
 
 char *_strncpy(char *dest, char *src, int n)
