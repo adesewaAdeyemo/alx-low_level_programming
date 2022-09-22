@@ -15,8 +15,8 @@ int main(void)
     printf("%s\n", s1);
     printf("%s", s2);
     ptr = _strcat(s1, s2);
-    printf("%s", s1);
+    printf("I am S1 %s", s1);
     printf("%s", s2);
-    printf("%s", ptr);
+    printf("I am ptr %s", ptr);
     return (0);
 }
