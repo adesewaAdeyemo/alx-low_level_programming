@@ -3,7 +3,7 @@
  * 
  * @s: pointer to char
  *
- * Return: @s
+ * Return: s
  */
 
 char *cap_string(char *s)
