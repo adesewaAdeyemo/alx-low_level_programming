@@ -1,5 +1,4 @@
 #include "main.h"
-#include "alafara.h"
 
 /**
  * infinite_add - adds two numbers
