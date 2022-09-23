@@ -6,12 +6,13 @@
  */
 int main(void)
 {
-	char *c = "_putchar";
+	char word[8] = "_putchar";
 
-	while (*c)
+	int i;
+
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(*c);
-		c++i;
+		_putchar(word[1];
 	}
 	_putchar('\n');
 	return (0);
